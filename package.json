@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "serve": "nf start",
+    "wait-on": "wait-on",
+    "wait-for-redis": "wait-for-redis --port=6379 --quiet"
+  },
+  "devDependencies": {
+    "foreman": "^3.0.1",
+    "wait-for-redis": "^1.0.2",
+    "wait-on": "^5.2.1"
+  }
+}

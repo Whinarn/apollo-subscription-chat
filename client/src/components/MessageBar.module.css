@@ -1,0 +1,16 @@
+.container {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px;
+  display: flex;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.button {
+  width: 100px;
+}
